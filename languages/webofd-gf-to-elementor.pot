@@ -1,0 +1,895 @@
+# Copyright (C) 2026 Web of D
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Web of D GF to Elementor 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/webofd-gf-to-elementor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-21T05:54:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: webofd-gf-to-elementor\n"
+
+#. Plugin Name of the plugin
+#: webofd-gf-to-elementor.php
+#: src/Admin/AdminPage.php:49
+msgid "Web of D GF to Elementor"
+msgstr ""
+
+#. Description of the plugin
+#: webofd-gf-to-elementor.php
+msgid "Converts Gravity Forms forms into Elementor Pro forms and swaps every embed, with backups and per-form rollback. Gravity Forms entries are not migrated."
+msgstr ""
+
+#. Author of the plugin
+#: webofd-gf-to-elementor.php
+msgid "Web of D"
+msgstr ""
+
+#. Author URI of the plugin
+#: webofd-gf-to-elementor.php
+msgid "https://vincelayte.me/"
+msgstr ""
+
+#: src/Admin/AdminPage.php:50
+#: src/Admin/AdminPage.php:141
+msgid "GF to Elementor"
+msgstr ""
+
+#: src/Admin/AdminPage.php:93
+msgid "No Gravity Forms data was found on this site, so there is nothing to migrate."
+msgstr ""
+
+#: src/Admin/AdminPage.php:97
+msgid "Uninstalling this plugin deletes the backups, so migrations can no longer be rolled back. Migrated forms keep working."
+msgstr ""
+
+#: src/Admin/AdminPage.php:108
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: src/Admin/AdminPage.php:142
+msgid "Convert a Gravity Forms form into an Elementor Pro form and swap it in everywhere it is used. Preview first: nothing changes until you press Migrate, and every migration can be rolled back."
+msgstr ""
+
+#: src/Admin/FormsTable.php:49
+msgid "ID"
+msgstr ""
+
+#: src/Admin/FormsTable.php:50
+msgid "Form"
+msgstr ""
+
+#: src/Admin/FormsTable.php:51
+msgid "Active"
+msgstr ""
+
+#: src/Admin/FormsTable.php:52
+#: src/Admin/PreviewView.php:59
+#: src/Admin/ReportView.php:56
+msgid "Fields"
+msgstr ""
+
+#: src/Admin/FormsTable.php:53
+msgid "Embeds"
+msgstr ""
+
+#: src/Admin/FormsTable.php:54
+msgid "Migration"
+msgstr ""
+
+#: src/Admin/FormsTable.php:55
+msgid "Date"
+msgstr ""
+
+#: src/Admin/FormsTable.php:95
+msgid "No Gravity Forms forms were found."
+msgstr ""
+
+#: src/Admin/FormsTable.php:109
+msgid "Yes"
+msgstr ""
+
+#: src/Admin/FormsTable.php:109
+msgid "No"
+msgstr ""
+
+#: src/Admin/FormsTable.php:146
+msgid "Preview & Migrate"
+msgstr ""
+
+#: src/Admin/FormsTable.php:159
+msgid "View report"
+msgstr ""
+
+#: src/Admin/FormsTable.php:162
+#: src/Admin/ReportView.php:126
+msgid "Roll back"
+msgstr ""
+
+#: src/Admin/FormsTable.php:177
+msgid "Not migrated"
+msgstr ""
+
+#. translators: 1: form title, 2: form ID.
+#: src/Admin/PreviewView.php:52
+#, php-format
+msgid "Preview: %1$s (#%2$d)"
+msgstr ""
+
+#: src/Admin/PreviewView.php:60
+#: src/Admin/ReportView.php:57
+msgid "Emails and confirmation"
+msgstr ""
+
+#. translators: %s: number of locations.
+#: src/Admin/PreviewView.php:75
+#, php-format
+msgid "Where it is used (%s location)"
+msgid_plural "Where it is used (%s locations)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/PreviewView.php:83
+msgid "Migrate"
+msgstr ""
+
+#: src/Admin/PreviewView.php:85
+msgid "Every changed page is backed up first. The Gravity Forms form itself is not changed."
+msgstr ""
+
+#. translators: %s: migration status, e.g. "Migrated".
+#: src/Admin/PreviewView.php:114
+#, php-format
+msgid "This form was migrated before (%s). Migrating again only changes places that still use the Gravity Form."
+msgstr ""
+
+#: src/Admin/PreviewView.php:116
+msgid "View the earlier report"
+msgstr ""
+
+#: src/Admin/PreviewView.php:126
+#: src/Admin/ReportView.php:40
+#: src/Admin/ReportView.php:74
+msgid "All forms"
+msgstr ""
+
+#: src/Admin/ReportTables.php:85
+msgid "Gravity Forms"
+msgstr ""
+
+#: src/Admin/ReportTables.php:85
+msgid "Becomes"
+msgstr ""
+
+#: src/Admin/ReportTables.php:85
+#: src/Admin/ReportTables.php:111
+msgid "Result"
+msgstr ""
+
+#: src/Admin/ReportTables.php:85
+msgid "Details"
+msgstr ""
+
+#: src/Admin/ReportTables.php:105
+msgid "This form is not embedded anywhere. Migrating creates a saved Elementor template you can place by hand."
+msgstr ""
+
+#: src/Admin/ReportTables.php:110
+msgid "Select all"
+msgstr ""
+
+#: src/Admin/ReportTables.php:111
+msgid "Location"
+msgstr ""
+
+#: src/Admin/ReportTables.php:111
+msgid "Type / status"
+msgstr ""
+
+#: src/Admin/ReportTables.php:111
+msgid "Embedded as"
+msgstr ""
+
+#: src/Admin/ReportTables.php:111
+msgid "What will happen"
+msgstr ""
+
+#: src/Admin/ReportTables.php:184
+msgid "Edit"
+msgstr ""
+
+#: src/Admin/ReportTables.php:188
+msgid "View"
+msgstr ""
+
+#: src/Admin/ReportTables.php:204
+#: assets/js/admin.js:53
+msgid "Swapped"
+msgstr ""
+
+#: src/Admin/ReportTables.php:205
+#: assets/js/admin.js:54
+msgid "Skipped"
+msgstr ""
+
+#: src/Admin/ReportTables.php:206
+#: src/Migration/MigrationStatus.php:34
+#: assets/js/admin.js:55
+msgid "Failed"
+msgstr ""
+
+#: src/Admin/ReportTables.php:207
+msgid "Not processed"
+msgstr ""
+
+#: src/Admin/ReportTables.php:208
+msgid "Not selected"
+msgstr ""
+
+#: src/Admin/ReportTables.php:209
+msgid "Change by hand"
+msgstr ""
+
+#: src/Admin/ReportView.php:41
+msgid "This migration report does not exist."
+msgstr ""
+
+#: src/Admin/ReportView.php:52
+msgid "Locations"
+msgstr ""
+
+#. translators: 1: form title, 2: form ID.
+#: src/Admin/ReportView.php:73
+#, php-format
+msgid "Migration report: %1$s (#%2$d)"
+msgstr ""
+
+#. translators: 1: date and time, 2: user display name.
+#: src/Admin/ReportView.php:80
+#, php-format
+msgid "Last updated %1$s by %2$s"
+msgstr ""
+
+#. translators: 1: date and time, 2: user display name.
+#: src/Admin/ReportView.php:80
+msgid "an unknown user"
+msgstr ""
+
+#: src/Admin/ReportView.php:98
+msgid "Saved template:"
+msgstr ""
+
+#: src/Admin/ReportView.php:101
+msgid "Edit in Elementor"
+msgstr ""
+
+#: src/Admin/ReportView.php:115
+msgid "This migration was rolled back. The pages show the Gravity Form again."
+msgstr ""
+
+#: src/Admin/ReportView.php:120
+msgid "This migration did not finish. Locations marked \"Not processed\" still show the Gravity Form; you can roll back what was swapped."
+msgstr ""
+
+#: src/Admin/ReportView.php:127
+msgid "Restores every changed page and widget exactly as it was before this migration."
+msgstr ""
+
+#: src/Convert/CompositeMapper.php:91
+msgid "Name field"
+msgstr ""
+
+#: src/Convert/CompositeMapper.php:115
+msgid "Address field"
+msgstr ""
+
+#: src/Convert/CompositeMapper.php:117
+msgid "The state/province list became a text field, and the country is not asked."
+msgstr ""
+
+#. translators: 1: "Name field" or "Address field", 2: number of fields, 3: comma-separated field labels.
+#: src/Convert/CompositeMapper.php:256
+#, php-format
+msgid "%1$s split into %2$d separate fields: %3$s."
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:47
+msgid " or "
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:47
+msgid " and "
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:61
+msgid "Show if"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:62
+msgid "Hide if"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:63
+msgid "Only if"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:81
+msgid "is empty"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:81
+msgid "is not empty"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:96
+msgid "is not"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:97
+msgid "is greater than"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:98
+msgid "is less than"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:99
+msgid "contains"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:100
+msgid "starts with"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:101
+msgid "ends with"
+msgstr ""
+
+#: src/Convert/ConditionalLogicDescriber.php:102
+msgid "is"
+msgstr ""
+
+#. translators: %s: Gravity Forms field ID.
+#: src/Convert/ConditionalLogicDescriber.php:128
+#, php-format
+msgid "field #%s"
+msgstr ""
+
+#: src/Convert/ConfirmationMapper.php:119
+msgid "Merge tags were removed: Elementor success messages cannot show submitted values."
+msgstr ""
+
+#: src/Convert/ConfirmationMapper.php:123
+msgid "HTML formatting was removed: Elementor shows the success message as plain text."
+msgstr ""
+
+#: src/Convert/ConfirmationMapper.php:131
+msgid "Success message"
+msgstr ""
+
+#: src/Convert/ConfirmationMapper.php:144
+msgid "The confirmation page no longer exists, so visitors see the default success message."
+msgstr ""
+
+#. translators: %s: comma-separated Gravity Forms merge tags.
+#: src/Convert/ConfirmationMapper.php:154
+#: src/Convert/NotificationMapper.php:239
+#, php-format
+msgid "Merge tags removed or simplified: %s."
+msgstr ""
+
+#: src/Convert/ConfirmationMapper.php:157
+msgid "Redirect"
+msgstr ""
+
+#: src/Convert/ConfirmationMapper.php:200
+msgid "Elementor forms have one confirmation, so only the default one was used."
+msgstr ""
+
+#. translators: %s: the rule in words.
+#: src/Convert/ConfirmationMapper.php:204
+#, php-format
+msgid "This one applied %s."
+msgstr ""
+
+#. translators: %s: comma-separated add-on names, e.g. "gravityformsmailchimp".
+#: src/Convert/Converter.php:73
+#, php-format
+msgid "This form has add-on feeds (%s). They are not migrated; set up the matching Elementor actions by hand."
+msgstr ""
+
+#. translators: %s: "reCAPTCHA" or "reCAPTCHA v3".
+#: src/Convert/Converter.php:79
+#, php-format
+msgid "The %s keys are not set in Elementor → Settings → Integrations, so the CAPTCHA will not work until they are."
+msgstr ""
+
+#. translators: %d: number of items.
+#: src/Convert/Converter.php:87
+#, php-format
+msgid "%d item could not be carried over; see the details below."
+msgid_plural "%d items could not be carried over; see the details below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Convert/FieldMapper.php:159
+msgid "List field became a plain text area; visitors type one item per line."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:190
+msgid "The \"confirm email\" box was dropped; visitors enter their email once."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:203
+msgid "The US (###) ###-#### format is no longer enforced."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:224
+msgid "The calculation formula was dropped; visitors type the number."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:227
+msgid "Currency formatting was dropped."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:238
+msgid "Elementor stores the password in plain text with the submission."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:240
+msgid "The \"confirm password\" box was dropped."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:289
+msgid "Only the first pre-selected option stays selected."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:292
+msgid "The \"Other\" choice with its own text box was dropped."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:305
+msgid "Separate day/month/year inputs became a single date picker."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:316
+msgid "Separate hour/minute inputs became a single time picker."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:345
+msgid "Section break shown as an HTML heading."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:395
+msgid "The math/simple CAPTCHA became an invisible honeypot."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:399
+msgid "Invisible reCAPTCHA v2 became reCAPTCHA v3, which needs v3 keys in Elementor."
+msgstr ""
+
+#. translators: %s: Gravity Forms field type, e.g. "signature".
+#: src/Convert/FieldMapper.php:423
+#, php-format
+msgid "Elementor forms have no equivalent of the \"%s\" field."
+msgstr ""
+
+#. translators: 1: Gravity Forms field type, 2: input type it was converted as.
+#: src/Convert/FieldMapper.php:428
+#, php-format
+msgid "The \"%1$s\" field was converted as a plain \"%2$s\" field."
+msgstr ""
+
+#. translators: 1: Gravity Forms field type, 2: Elementor field type.
+#: src/Convert/FieldMapper.php:434
+#, php-format
+msgid "Unsupported \"%1$s\" field became a %2$s field."
+msgstr ""
+
+#. translators: %s: page name.
+#: src/Convert/FieldMapper.php:454
+#, php-format
+msgid "First page \"%s\""
+msgstr ""
+
+#. translators: %s: page name.
+#: src/Convert/FieldMapper.php:454
+msgid "Starts the first step."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:477
+msgid "Anti-spam honeypot"
+msgstr ""
+
+#. translators: %s: field description.
+#: src/Convert/FieldMapper.php:516
+#, php-format
+msgid "The description \"%s\" is not shown: Elementor fields have no description."
+msgstr ""
+
+#. translators: %d: maximum number of characters.
+#: src/Convert/FieldMapper.php:521
+#, php-format
+msgid "The %d-character limit is not enforced."
+msgstr ""
+
+#. translators: %s: Gravity Forms merge tag, e.g. "{user:display_name}".
+#: src/Convert/FieldMapper.php:526
+#, php-format
+msgid "The dynamic default value %s was left empty: Elementor cannot evaluate Gravity Forms merge tags."
+msgstr ""
+
+#. translators: %s: URL parameter name.
+#: src/Convert/FieldMapper.php:531
+#, php-format
+msgid "Filling the field from the \"%s\" URL parameter is not carried over."
+msgstr ""
+
+#: src/Convert/FieldMapper.php:554
+msgid "Admin-only field became a hidden field."
+msgstr ""
+
+#. translators: %s: the rule in words, e.g. Show if "Topic" is "sales".
+#: src/Convert/FieldMapper.php:573
+#, php-format
+msgid "Conditional logic dropped: %s."
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:43
+msgid "Label placement"
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:43
+msgid "Labels beside fields are now shown above them."
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:60
+msgid "Require login"
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:60
+msgid "Anyone can now submit the form, logged in or not."
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:64
+msgid "Entry limit"
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:64
+msgid "The form no longer closes after a number of entries."
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:68
+msgid "Form schedule"
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:68
+msgid "The form is always open; its start and end dates were dropped."
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:72
+msgid "Save and Continue"
+msgstr ""
+
+#: src/Convert/FormSettingsReporter.php:72
+msgid "Visitors can no longer save a partly filled form and finish it later."
+msgstr ""
+
+#. translators: %s: the rule in words.
+#: src/Convert/FormSettingsReporter.php:79
+msgid "Submit button"
+msgstr ""
+
+#. translators: %s: the rule in words.
+#: src/Convert/FormSettingsReporter.php:79
+#, php-format
+msgid "Conditional logic dropped, so the button is always shown (was: %s)."
+msgstr ""
+
+#: src/Convert/FormWidgetBuilder.php:82
+msgid "Submit"
+msgstr ""
+
+#. translators: %s: Gravity Forms notification event, e.g. "form_saved".
+#: src/Convert/NotificationMapper.php:90
+#, php-format
+msgid "Sent on the \"%s\" event, not on submission."
+msgstr ""
+
+#: src/Convert/NotificationMapper.php:94
+msgid "Inactive in Gravity Forms."
+msgstr ""
+
+#: src/Convert/NotificationMapper.php:98
+msgid "Elementor forms have only two email actions; recreate this one by hand if it is still needed."
+msgstr ""
+
+#: src/Convert/NotificationMapper.php:150
+msgid "The recipient field no longer exists, so it is sent to the site admin."
+msgstr ""
+
+#. translators: %s: comma-separated email addresses.
+#: src/Convert/NotificationMapper.php:182
+#, php-format
+msgid "Routing rules dropped: every submission now goes to all routed addresses (%s)."
+msgstr ""
+
+#. translators: %s: Gravity Forms reply-to value.
+#: src/Convert/NotificationMapper.php:218
+#, php-format
+msgid "Reply-to \"%s\" dropped: Elementor only accepts a form field as reply-to."
+msgstr ""
+
+#. translators: %s: the rule in words.
+#: src/Convert/NotificationMapper.php:256
+#, php-format
+msgid "Conditional logic dropped, so it is now always sent (was: %s)."
+msgstr ""
+
+#: src/Convert/NotificationMapper.php:260
+msgid "Uploaded files are no longer attached; the email links to them instead."
+msgstr ""
+
+#: src/Convert/PricingMapper.php:48
+msgid "Totals need price calculation, which Elementor forms do not do."
+msgstr ""
+
+#: src/Convert/PricingMapper.php:120
+msgid "Pricing field kept as a plain input; no prices are calculated or charged."
+msgstr ""
+
+#. translators: %s: price, e.g. "$50.00".
+#: src/Convert/PricingMapper.php:124
+#, php-format
+msgid "Pricing field kept as a plain input; the %s price is not calculated or charged."
+msgstr ""
+
+#: src/Convert/ResultStatus.php:52
+msgid "Converted"
+msgstr ""
+
+#: src/Convert/ResultStatus.php:53
+msgid "Approximated"
+msgstr ""
+
+#: src/Convert/ResultStatus.php:54
+msgid "Dropped"
+msgstr ""
+
+#. translators: %d: step number.
+#: src/Convert/StepPlan.php:89
+#, php-format
+msgid "Step %d"
+msgstr ""
+
+#: src/Dependencies.php:66
+#: webofd-gf-to-elementor.php:43
+msgid "Web of D GF to Elementor:"
+msgstr ""
+
+#: src/Dependencies.php:67
+msgid "Elementor Pro must be active. Migrated forms use its Form widget, so nothing can be migrated until it is."
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:43
+msgid "Replace the widget with the Elementor form"
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:44
+msgid "Replace the shortcode inside the widget with the form template"
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:45
+msgid "Replace the shortcode/block with the form template"
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:46
+msgid "Report only: change this by hand"
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:62
+msgid "(no title)"
+msgstr ""
+
+#. translators: %s: widget ID, e.g. "text-3".
+#: src/Migration/EmbedPresenter.php:85
+#, php-format
+msgid "Widget %s"
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:86
+msgid "Widget"
+msgstr ""
+
+#: src/Migration/EmbedPresenter.php:87
+msgid "inactive"
+msgstr ""
+
+#: src/Migration/MigrationStatus.php:30
+msgid "In progress"
+msgstr ""
+
+#: src/Migration/MigrationStatus.php:31
+msgid "Migrated"
+msgstr ""
+
+#: src/Migration/MigrationStatus.php:32
+msgid "Partial"
+msgstr ""
+
+#: src/Migration/MigrationStatus.php:33
+msgid "Rolled back"
+msgstr ""
+
+#: src/Migration/Migrator.php:119
+msgid "The migration record could not be saved."
+msgstr ""
+
+#: src/Migration/Migrator.php:204
+msgid "This embed was not selected for this migration, or was already processed."
+msgstr ""
+
+#: src/Migration/Migrator.php:208
+msgid "The form is no longer embedded here; the page was probably edited after the preview."
+msgstr ""
+
+#: src/Migration/Migrator.php:212
+msgid "You are not allowed to edit this location."
+msgstr ""
+
+#: src/Migration/Migrator.php:286
+msgid "This migration does not exist or has already finished."
+msgstr ""
+
+#. translators: %d: form ID.
+#: src/Migration/Migrator.php:306
+#, php-format
+msgid "Gravity Forms form #%d does not exist."
+msgstr ""
+
+#: src/Migration/RollbackService.php:85
+msgid "This migration does not exist or was already rolled back."
+msgstr ""
+
+#: src/Rest/Controller.php:216
+msgid "\"embeds\" must be a list of embed keys."
+msgstr ""
+
+#: src/Rest/Controller.php:221
+msgid "An embed key is not valid."
+msgstr ""
+
+#: src/Rest/Controller.php:238
+msgid "Elementor Pro must be active to migrate forms."
+msgstr ""
+
+#: src/Swap/ContentSwapper.php:51
+msgid "The content no longer embeds the form."
+msgstr ""
+
+#. translators: %s: Elementor element ID.
+#: src/Swap/ElementorDataSwapper.php:61
+#, php-format
+msgid "Element %s is no longer on the page."
+msgstr ""
+
+#: src/Swap/ElementorDataSwapper.php:151
+msgid "The widget no longer contains the form shortcode."
+msgstr ""
+
+#. translators: %d: post ID.
+#: src/Swap/ElementorDocuments.php:56
+#, php-format
+msgid "Elementor could not save post %d. Check that you can edit it."
+msgstr ""
+
+#: src/Swap/EmbedSwapService.php:102
+msgid "This embed is report-only and must be changed by hand."
+msgstr ""
+
+#: src/Swap/TemplateFactory.php:60
+msgid "The migration record is missing."
+msgstr ""
+
+#. translators: 1: Gravity Forms form ID, 2: form title.
+#: src/Swap/TemplateFactory.php:91
+#, php-format
+msgid "GF #%1$d – %2$s (migrated)"
+msgstr ""
+
+#. translators: %s: widget ID, e.g. "text-3".
+#: src/Swap/WidgetSwapper.php:45
+#, php-format
+msgid "Widget %s no longer exists."
+msgstr ""
+
+#. translators: %d: post ID.
+#: src/Swap/Writer/ElementorDocumentWriter.php:54
+#, php-format
+msgid "Post %d has no readable Elementor data."
+msgstr ""
+
+#. translators: %s: option name.
+#: src/Swap/Writer/WidgetOptionWriter.php:47
+#, php-format
+msgid "The %s option is missing."
+msgstr ""
+
+#: webofd-gf-to-elementor.php:45
+msgid "Run <code>composer install</code> in the plugin directory before use."
+msgstr ""
+
+#: assets/js/admin.js:56
+msgid "Working…"
+msgstr ""
+
+#: assets/js/admin.js:108
+msgid "The request failed."
+msgstr ""
+
+#: assets/js/admin.js:121
+msgid "No locations are selected. Convert the form into a saved Elementor template only?"
+msgstr ""
+
+#. translators: %d: number of locations.
+#: assets/js/admin.js:126
+#, js-format
+msgid "Migrate this form and swap it in %d location? Each change is backed up and can be rolled back."
+msgid_plural "Migrate this form and swap it in %d locations? Each change is backed up and can be rolled back."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin.js:139
+msgid "Converting the form…"
+msgstr ""
+
+#. translators: 1: location number, 2: total locations.
+#: assets/js/admin.js:150
+#, js-format
+msgid "Swapping location %1$d of %2$d…"
+msgstr ""
+
+#: assets/js/admin.js:159
+msgid "The migration stopped because of an error."
+msgstr ""
+
+#: assets/js/admin.js:178
+msgid "Migration finished."
+msgstr ""
+
+#: assets/js/admin.js:179
+msgid "Migration finished, but some locations failed."
+msgstr ""
+
+#: assets/js/admin.js:180
+msgid "Migration failed. Nothing was swapped."
+msgstr ""
+
+#: assets/js/admin.js:181
+msgid "The migration did not finish."
+msgstr ""
+
+#: assets/js/admin.js:186
+msgid "View the report"
+msgstr ""
+
+#: assets/js/admin.js:213
+msgid "The rollback failed."
+msgstr ""
+
+#: assets/js/admin.js:228
+msgid "These were edited after the migration:"
+msgstr ""
+
+#: assets/js/admin.js:229
+msgid "Restore them anyway? The later edits will be lost."
+msgstr ""
+
+#: assets/js/admin.js:255
+msgid "Roll back this migration? Every page and widget it changed is restored to how it was before."
+msgstr ""

@@ -1,0 +1,105 @@
+/* Web of D GF to Elementor: admin screen. */
+
+.gf2el .gf2el-intro {
+	max-width: 760px;
+}
+
+.gf2el h2 {
+	margin-top: 2em;
+}
+
+.gf2el-badge {
+	display: inline-block;
+	padding: 1px 8px;
+	border-radius: 10px;
+	font-size: 12px;
+	line-height: 1.8;
+	white-space: nowrap;
+	background: #f0f0f1;
+	color: #1d2327;
+}
+
+.gf2el-badge--converted,
+.gf2el-badge--migrated,
+.gf2el-badge--done {
+	background: #edfaef;
+	color: #00450c;
+}
+
+.gf2el-badge--approximated,
+.gf2el-badge--partial,
+.gf2el-badge--skipped,
+.gf2el-badge--running,
+.gf2el-badge--working {
+	background: #fcf9e8;
+	color: #614200;
+}
+
+.gf2el-badge--dropped,
+.gf2el-badge--failed {
+	background: #fcf0f1;
+	color: #8a2424;
+}
+
+.gf2el-badge--rolled_back,
+.gf2el-badge--report_only,
+.gf2el-badge--not_selected,
+.gf2el-badge--none {
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+.gf2el-counts .gf2el-badge {
+	margin-right: 4px;
+}
+
+.gf2el-warnings ul {
+	margin: 0.5em 0 0.5em 1.5em;
+	list-style: disc;
+}
+
+.gf2el-entries td:nth-child(2) {
+	width: 24%;
+}
+
+.gf2el-entries td:nth-child(3) {
+	width: 110px;
+}
+
+.gf2el-scroll {
+	max-height: 480px;
+	overflow: auto;
+	border: 1px solid #c3c4c7;
+}
+
+.gf2el-scroll .widefat {
+	border: 0;
+}
+
+.gf2el-embeds .check-column {
+	padding-left: 8px;
+}
+
+.gf2el-actions {
+	margin-top: 1em;
+}
+
+.gf2el-progress {
+	margin-top: 1em;
+	padding: 8px 12px;
+	background: #fff;
+	border-left: 4px solid #2271b1;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.gf2el-progress p {
+	margin: 0.4em 0;
+}
+
+.gf2el-progress .gf2el-error {
+	color: #8a2424;
+}
+
+.gf2el-meta .gf2el-badge {
+	margin-right: 6px;
+}

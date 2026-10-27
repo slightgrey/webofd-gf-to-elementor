@@ -1,0 +1,194 @@
+[
+    {
+        "id": "1d3a84d",
+        "elType": "container",
+        "settings": [],
+        "elements": [
+            {
+                "id": "4f0e271e",
+                "elType": "widget",
+                "settings": {
+                    "form_name": "GF2EL reference",
+                    "form_fields": [
+                        {
+                            "field_type": "step",
+                            "field_label": "Step one",
+                            "previous_button": "",
+                            "next_button": "",
+                            "_id": "385a9eba"
+                        },
+                        {
+                            "field_type": "text",
+                            "custom_id": "name",
+                            "field_label": "Name",
+                            "placeholder": "Your name",
+                            "required": "true",
+                            "width": "50",
+                            "field_value": "Default",
+                            "_id": "1866e11"
+                        },
+                        {
+                            "field_type": "email",
+                            "custom_id": "email",
+                            "field_label": "Email",
+                            "required": "true",
+                            "width": "50",
+                            "_id": "5b35b0ef"
+                        },
+                        {
+                            "field_type": "textarea",
+                            "custom_id": "message",
+                            "field_label": "Message",
+                            "rows": 4,
+                            "_id": "3d3cfd48"
+                        },
+                        {
+                            "field_type": "url",
+                            "custom_id": "website",
+                            "field_label": "Website",
+                            "_id": "76dcb6f0"
+                        },
+                        {
+                            "field_type": "tel",
+                            "custom_id": "phone",
+                            "field_label": "Phone",
+                            "width": "33",
+                            "_id": "5a6f051f"
+                        },
+                        {
+                            "field_type": "radio",
+                            "custom_id": "choice",
+                            "field_label": "Radio",
+                            "field_options": "One|1\nTwo|2",
+                            "inline_list": "elementor-subgroup-inline",
+                            "_id": "51f29c64"
+                        },
+                        {
+                            "field_type": "select",
+                            "custom_id": "pick",
+                            "field_label": "Select",
+                            "field_options": "Please select|\nA|a\nB|b",
+                            "_id": "166c5baf"
+                        },
+                        {
+                            "field_type": "select",
+                            "custom_id": "multi",
+                            "field_label": "Multi",
+                            "field_options": "A\nB\nC",
+                            "allow_multiple": "true",
+                            "select_size": 3,
+                            "_id": "406261f5"
+                        },
+                        {
+                            "field_type": "checkbox",
+                            "custom_id": "checks",
+                            "field_label": "Checks",
+                            "field_options": "X\nY",
+                            "_id": "511a00b9"
+                        },
+                        {
+                            "field_type": "step",
+                            "field_label": "Step two",
+                            "_id": "6c3a3ec3"
+                        },
+                        {
+                            "field_type": "acceptance",
+                            "custom_id": "consent",
+                            "field_label": "Consent",
+                            "acceptance_text": "I agree",
+                            "required": "true",
+                            "_id": "3f20d9b4"
+                        },
+                        {
+                            "field_type": "number",
+                            "custom_id": "qty",
+                            "field_label": "Number",
+                            "field_min": 1,
+                            "field_max": 10,
+                            "_id": "6ff8b22d"
+                        },
+                        {
+                            "field_type": "date",
+                            "custom_id": "when",
+                            "field_label": "Date",
+                            "use_native_date": "yes",
+                            "_id": "6ec00427"
+                        },
+                        {
+                            "field_type": "time",
+                            "custom_id": "at",
+                            "field_label": "Time",
+                            "_id": "3ff1e314"
+                        },
+                        {
+                            "field_type": "upload",
+                            "custom_id": "file",
+                            "field_label": "Upload",
+                            "file_sizes": 2,
+                            "file_types": "pdf,jpg",
+                            "allow_multiple_upload": "yes",
+                            "max_files": 3,
+                            "_id": "3b3b8191"
+                        },
+                        {
+                            "field_type": "password",
+                            "custom_id": "pw",
+                            "field_label": "Password",
+                            "_id": "5e833f65"
+                        },
+                        {
+                            "field_type": "html",
+                            "custom_id": "section",
+                            "field_html": "<h3>Section</h3><p>Description</p>",
+                            "_id": "3ff776e0"
+                        },
+                        {
+                            "field_type": "hidden",
+                            "custom_id": "src",
+                            "field_value": "gf",
+                            "_id": "1b7070c0"
+                        },
+                        {
+                            "field_type": "honeypot",
+                            "custom_id": "hp",
+                            "_id": "ac9b2f"
+                        },
+                        {
+                            "field_type": "recaptcha_v3",
+                            "custom_id": "captcha",
+                            "_id": "377ad83"
+                        }
+                    ],
+                    "button_text": "Submit",
+                    "show_labels": "true",
+                    "mark_required": "yes",
+                    "submit_actions": [
+                        "save-to-database",
+                        "email",
+                        "email2",
+                        "redirect"
+                    ],
+                    "email_to": "admin@example.test",
+                    "email_subject": "Subject 1",
+                    "email_content": "Name: [field id=\"name\"]\n[all-fields]",
+                    "email_from": "from@example.test",
+                    "email_from_name": "From",
+                    "email_reply_to": "email",
+                    "email_to_cc": "cc@example.test",
+                    "email_to_bcc": "bcc@example.test",
+                    "email_content_type": "html",
+                    "email_to_2": "[field id=\"email\"]",
+                    "email_subject_2": "Subject 2",
+                    "email_content_2": "Thanks",
+                    "email_reply_to_2": "email",
+                    "redirect_to": "http://plugin.test/thanks/?a=1",
+                    "success_message": "Thanks!",
+                    "custom_messages": "yes"
+                },
+                "elements": [],
+                "widgetType": "form"
+            }
+        ],
+        "isInner": false
+    }
+]
